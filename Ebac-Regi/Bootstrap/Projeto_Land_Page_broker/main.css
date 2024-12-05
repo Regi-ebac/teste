@@ -1,0 +1,85 @@
+body {
+    font-family:Roboto,sans-serif; 
+    background: rgba(0, 0, 0, 0.7);  
+}
+
+.navbar {
+    background-color:black;
+}
+
+#cabecalho h1{
+    font-size: 50px;
+    font-style: normal;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: black;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,  
+.navbar-brand:hover,
+.nav-projeto .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+   background-color:#fff ; 
+}
+
+.section-title {
+    font-family:"Birthstone", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#sobre-cesar, #imoveis {
+    background-color: black;
+    
+}
+
+.text-colored {
+    color:#fff;
+}
+
+#briefing,
+#fale-conosco {
+    background: rgba(200, 200, 200, 0.5);
+  }
+  
+
+.fundo-briefing {
+    background-color: gray;
+    color: gray;
+}
+
+.nav-projeto .nav-link.active,
+#fale-conosco button {
+    background-color: black;
+    color: #fff;
+}
+
+.nav-projeto .nav-link:hover {
+    color:gray;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media  (max-width: 767px) {
+    .corousel-item img {
+        height: 280px;
+    }
+}
+    
+
+
+ 
